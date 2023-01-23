@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HW_9-useReducer_TodoList/static/css/main.12d0a30a.css",
+    "main.js": "/HW_9-useReducer_TodoList/static/js/main.17fa93e0.js",
+    "index.html": "/HW_9-useReducer_TodoList/index.html",
+    "main.12d0a30a.css.map": "/HW_9-useReducer_TodoList/static/css/main.12d0a30a.css.map",
+    "main.17fa93e0.js.map": "/HW_9-useReducer_TodoList/static/js/main.17fa93e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12d0a30a.css",
+    "static/js/main.17fa93e0.js"
+  ]
+}
