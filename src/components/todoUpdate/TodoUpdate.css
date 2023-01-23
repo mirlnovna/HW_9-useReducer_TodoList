@@ -1,0 +1,49 @@
+.input-update {
+  border: none;
+  font-weight: 500;
+  font-family: inherit;
+  font-size: 18px;
+  color: #555;
+  width: 100%;
+  outline: none;
+}
+.container-done {
+  background-color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+  border: 2px solid var(--verde);
+  cursor: pointer;
+}
+
+.container-done.active {
+  background-color: var(--verde);
+}
+
+.text-decoration-dashed {
+  text-decoration: line-through;
+}
+.btn-edit {
+  background-color: var(--azul);
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  left: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.btn-edit:hover {
+  background-color: var(--azul-hover);
+}
+
+form {
+  display: flex;
+  gap: 20px;
+}

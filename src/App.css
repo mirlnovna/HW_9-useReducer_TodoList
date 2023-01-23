@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --rojo: #ba181b;
+  --azul: #00b4d8;
+  --azul-hover: #48cae4;
+  --rojo-hover: #e5383b;
+  --verde: #09a129;
+}
+
+body {
+  font-family: Poppins;
+  max-width: 1200px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.card-to-do {
+  box-shadow: 1px 1px 7px 7px rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  border-radius: 20px;
+  width: 700px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.counter-todos {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.counter-todos h3 {
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.counter-todos span {
+  color: rgb(3, 65, 35);
+  font-weight: 700;
+  font-size: 1.9rem;
+  margin-left: 10px;
+}
+
+ul {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+ul li span {
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+ul li form {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
